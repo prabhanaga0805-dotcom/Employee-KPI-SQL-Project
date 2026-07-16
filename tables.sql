@@ -1,0 +1,20 @@
+CREATE TABLE employee_kpi (
+emp_id INT PRIMARY KEY,
+ldap VARCHAR(30),
+cost_code VARCHAR(20),
+production DECIMAL(5,2),
+quality DECIMAL(5,2),
+aging_issues INT,
+pkt INT,
+total_points DECIMAL(5,2),
+attendance_issue INT,
+critical_pin INT,
+dispute_accuracy DECIMAL(5,2),
+penalty DECIMAL(5,2),
+target_points DECIMAL(5,2),
+units_percentage DECIMAL(5,2),
+person_days DECIMAL(5,2),
+eligibility CHAR(1),
+rank_no INT,
+productivity_points DECIMAL(5,2)
+);
